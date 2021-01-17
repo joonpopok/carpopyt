@@ -52,7 +52,7 @@ function numberWithCommas(x) {
 
 // Request play list items
 function requestPlaylist(playlistId) {
-    const maxResults = ${numberWithCommas(videos)};
+    const maxResults = 99999999999999;
     const playlistURL = `https://www.googleapis.com/youtube/v3/playlistItems?key=${apiKey}&playlistId=${playlistId}&part=snippet&maxResults=${maxResults}`;
 
     fetch(playlistURL)
