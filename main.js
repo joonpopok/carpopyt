@@ -1,7 +1,7 @@
 const apiKey = 'AIzaSyBe0T9X9RDwTcJM4EXd9NTZIMDpzERJQZY';
 const videoChannel = document.querySelector('#video-channel');
 const videoContainer = document.querySelector('#video-container');
-const channelId = 'UCQ665siYyilhuXWxWbGEwIg';
+const channelId = 'carpopyt';
 
 // Channel
 const channelEndpoint = `https://www.googleapis.com/youtube/v3/channels?key=${apiKey}&id=${channelId}&part=snippet,contentDetails,statistics`;
